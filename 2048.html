@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/2048.css"/>
+	</head>
+	<body>
+		<p>	TOP: <span id="topscore"></span> <br />
+			SCORE:<span id="score">0</span>
+		</p>
+		<div id="gridpanel">
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			
+			<div id="c00" class="cell"></div>
+			<div id="c01" class="cell"></div>
+			<div id="c02" class="cell"></div>
+			<div id="c03" class="cell"></div>
+			
+			<div id="c10" class="cell"></div>
+			<div id="c11" class="cell"></div>
+			<div id="c12" class="cell"></div>
+			<div id="c13" class="cell"></div>
+			
+			<div id="c20" class="cell"></div>
+			<div id="c21" class="cell"></div>
+			<div id="c22" class="cell"></div>
+			<div id="c23" class="cell"></div>
+			
+			<div id="c30" class="cell"></div>
+			<div id="c31" class="cell"></div>
+			<div id="c32" class="cell"></div>
+			<div id="c33" class="cell"></div>
+		</div>
+		<div id="gameOver">
+			<div></div>
+			<p>
+				GAME OVER <br />
+				SCORE:<span id="fscore">
+					0
+				</span> <br />
+				<a href="" style="text-decoration: none;" class="btn" onclick="game.start()">TRY AGAIN</a>
+			</p>
+		</div>
+		<script type="text/javascript" src="js/2048.js">
+		</script>
+		
+	</body>
+</html>
